@@ -1,6 +1,6 @@
-# ForkDelta Backend
-# https://github.com/forkdelta/backend-replacement
-# Copyright (C) 2018, Arseniy Ivanov and ForkDelta Contributors
+# FuturEx Backend
+# https://github.com/futurex/backend-replacement
+# Copyright (C) 2018, Arseniy Ivanov and FuturEx Contributors
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as published by
@@ -54,15 +54,15 @@ def is_origin_allowed(origin):
     Otherwise, returns False.
 
     Eg.:
-    is_origin_allowed("https://forkdelta.github.io") => True
-    is_origin_allowed("https://forkdelta.com/") => True
-    is_origin_allowed("https://api.forkdelta.com/") => True
+    is_origin_allowed("https://futurex.github.io") => True
+    is_origin_allowed("https://futurex.com/") => True
+    is_origin_allowed("https://api.futurex.com/") => True
     is_origin_allowed("http://localhost:3000/") => True
     is_origin_allowed("http://localhost:8080/") => True
-    is_origin_allowed("wss://api.forkdelta.com/") => True
+    is_origin_allowed("wss://api.futurex.com/") => True
     is_origin_allowed("ws://localhost:3001/") => True
     is_origin_allowed("file://") => False
-    is_origin_allowed("https://forkdelta.bs/") => False
+    is_origin_allowed("https://futurex.bs/") => False
     is_origin_allowed("https://forkscamster.github.io/") => False
     """
 

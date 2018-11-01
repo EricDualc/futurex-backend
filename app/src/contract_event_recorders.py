@@ -1,6 +1,6 @@
-# ForkDelta Backend
-# https://github.com/forkdelta/backend-replacement
-# Copyright (C) 2018, Arseniy Ivanov and ForkDelta Contributors
+# FuturEx Backend
+# https://github.com/futurex/backend-replacement
+# Copyright (C) 2018, Arseniy Ivanov and FuturEx Contributors
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as published by
